@@ -1,0 +1,29 @@
+body {
+    margin: 0;
+}
+
+.headerPanel {
+    background: black;
+    height: 20vh;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.headerBanner {
+
+    color: white;
+    font-size: 70px;
+}
+
+.content {
+    background: blue;
+    height: 60vh;
+}
+
+.footer {
+    background: white;
+    height: 20vh;
+}
