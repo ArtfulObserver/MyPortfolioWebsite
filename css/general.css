@@ -1,0 +1,14 @@
+body {
+    margin: 0;
+}
+ 
+.contentAndFooter {
+    background: url(/img/footer.jpg), 
+                linear-gradient(rgba(255, 226, 184, 0.63), #10112D);
+    background-repeat: no-repeat;
+    background-position: center bottom, center top;
+    background-size: 100vw 200px, 100vw calc(100vh - 330px);
+    height: calc(100vh - 130px);
+    width: 100vw;
+
+}
