@@ -1,4 +1,60 @@
 
 .content {
     height: calc(100vh - 230px);
+    width: 100vw;
+
+    display: flex;
+    flex-direction: row;
+}
+
+.content-left {
+    height: calc(100% - 40px);
+    width: 47vw;
+    margin: 20px 0px;
+}
+
+.advertisement-picture {
+    height: 100%;
+    width: 100%;
+
+    background-image: url(../img/advertisements.jpg);
+    background-position: right;
+    background-size: auto 100%;
+    background-repeat: no-repeat;
+}
+
+.content-center {
+    height: 100%;
+    width: 6vw;
+}
+
+.content-right {
+    height: calc(100% - 40px);
+    width: 47vw;
+    margin: 20px 0px;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.medal-panel {
+    height: 46%;
+    width: 100%;
+
+    background-image: url(../img/medalDesigns.jpg);
+    background-position: left;
+    background-size: auto 100%;
+    background-repeat: no-repeat;
+
+}
+
+.product-panel {
+    height: 46%;
+    width: 100%;
+
+    background-image: url(../img/productDesigns.jpg);
+    background-position: left;
+    background-size: auto 100%;
+    background-repeat: no-repeat;
 }

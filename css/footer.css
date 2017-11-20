@@ -10,7 +10,7 @@
 
 }
 
-.socialMediaPanel {
+.social-media-panel {
     background: white;
     display: flex;
     flex-direction: row;
@@ -20,12 +20,12 @@
     width: 230px;
 }
 
-.socialMedia {
+.social-media {
     background: black;
     height: 60px;
     width: 60px;
 }
 
-.contactPanel {
+.contact-panel {
     background: white;
 }
